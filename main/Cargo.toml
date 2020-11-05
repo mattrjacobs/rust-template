@@ -1,9 +1,10 @@
 [package]
-name = "main"
-version = "0.1.0"
 authors = ["Matt Jacobs <mattrjacobs@gmail.com>"]
 edition = "2018"
+name = "main"
+version = "0.1.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+reqwest = {version = "0.10.8", features = ["blocking"]}
